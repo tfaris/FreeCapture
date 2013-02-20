@@ -1,0 +1,11 @@
+﻿<Window x:Class="FreeCapture.CapturePreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CapturePreviewWindow" Height="380" Width="471" ResizeMode="NoResize" KeyUp="Window_KeyUp">
+    <Grid>
+        <Button Content="Save" Height="27" HorizontalAlignment="Right" Name="button1" VerticalAlignment="Bottom" Width="75" Margin="0,0,4,6" Click="button1_Click" />
+        <DockPanel Height="298" HorizontalAlignment="Left" Name="dockPanel1" VerticalAlignment="Top" Width="447">
+            <Image Height="296" Name="image1" Stretch="Fill" Width="446" HorizontalAlignment="Left" VerticalAlignment="Top" DockPanel.Dock="Top" />
+        </DockPanel>
+    </Grid>
+</Window>
